@@ -1,0 +1,58 @@
+body {
+  margin: 0%;
+  background-image: url("images.jfif");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+ul.nav-bar {
+  list-style-type: none;
+  margin: 0;
+  overflow: hidden;
+  background-color: #1976d2;
+}
+
+ul.nav-bar li {
+  float: left;
+}
+
+ul.nav-bar li a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  padding: 15px 15px;
+}
+
+.nav-bar input[type="text"] {
+  float: right;
+  padding: 5px;
+  margin-top: 10px;
+  margin-right: 20px;
+  font-size: 15px;
+}
+
+@media screen and (max-width: 768px) {
+  
+  .nav-bar li {
+    text-align: center;
+    background-color: #1976d2;
+    width: 100%;
+    display: inline-block;
+  }
+  ul.nav-bar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 15px;
+  }
+
+  ul.nav-bar {
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+  }
+ 
+}
